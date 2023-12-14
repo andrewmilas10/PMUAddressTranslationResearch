@@ -1,0 +1,7 @@
+     0.172970862,224988,,instructions:u,3732063,100.00,0.17,insn per cycle
+     0.172970862,1299573,,cycles:u,3732063,100.00,,
+     0.172970862,64086,,dTLB-loads,3732063,100.00,,
+     0.172970862,1113,,dtlb_load_misses.pde_cache_miss:u,3732063,100.00,,
+     0.172970862,13473,,dtlb_load_misses.stlb_hit:u,3732063,100.00,,
+     0.172970862,1214,,dtlb_load_misses.miss_causes_a_walk:u,3732063,100.00,,
+./test_tlb_thrash: Segmentation fault

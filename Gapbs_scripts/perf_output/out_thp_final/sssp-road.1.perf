@@ -1,0 +1,18 @@
+# started on Wed Nov 29 11:22:47 2023
+
+    10.000460205,170575196584,,instructions:u,33484991635,28.06,0.50,insn per cycle
+    10.000460205,338460402943,,cycles:u,33466558178,28.05,,
+    10.000460205,61771952893,,dTLB-loads,33415610200,28.00,,
+    10.000460205,2294540,,dtlb_load_misses.miss_causes_a_walk:u,33411238626,28.00,,
+    10.000460205,1360430,,dtlb_load_misses.pde_cache_miss:u,33432386490,28.02,,
+    10.000460205,2399397709,,dtlb_load_misses.stlb_hit_2m:u,33426134565,28.01,,
+    10.000460205,16602016,,dtlb_store_misses.stlb_hit_4k:u,33388159535,27.98,,
+    10.000460205,240547,,dtlb_load_misses.walk_completed_2m_4m:u,33349117625,27.95,,
+    10.000460205,1589857,,dtlb_load_misses.walk_completed_4k:u,33402404216,27.99,,
+    10.000460205,90043631,,dtlb_load_misses.walk_duration:u,29703336770,24.89,,
+    10.000460205,1000617,,page_walker_loads.dtlb_l1:u,29718299654,24.91,,
+    10.000460205,311345,,page_walker_loads.dtlb_l2:u,29721006363,24.91,,
+    10.000460205,1285854,,page_walker_loads.dtlb_l3:u,29699564138,24.89,,
+    10.000460205,67356,,page_walker_loads.dtlb_memory:u,29733179378,24.92,,
+    10.000460205,61797405839,,mem_uops_retired.all_loads:u,29736636876,24.92,,
+    10.000460205,1288468,,mem_uops_retired.stlb_miss_loads:u,29749884952,24.93,,

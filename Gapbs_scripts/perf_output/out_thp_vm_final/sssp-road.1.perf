@@ -1,0 +1,23 @@
+# started on Wed Nov 29 07:51:22 2023
+
+    10.006434896,139450024763,,instructions:u,27036111667,23.98,2.27,insn per cycle
+    10.006434896,61448328262,,cycles:u,27026358984,23.97,,
+    10.006434896,40497930617,,dTLB-loads,27007450878,23.95,,
+    10.006434896,3428948,,dtlb_load_misses.miss_causes_a_walk:u,26960130502,23.91,,
+    10.006434896,1595997,,dtlb_load_misses.pde_cache_miss:u,26907807165,23.87,,
+    10.006434896,1530344155,,dtlb_load_misses.stlb_hit_2m:u,26860727655,23.82,,
+    10.006434896,18159145,,dtlb_load_misses.stlb_hit_4k:u,26823263433,23.79,,
+    10.006434896,0,,dtlb_load_misses.walk_completed_2m_4m:u,26778441522,23.75,,
+    10.006434896,1344958,,dtlb_load_misses.walk_completed_4k:u,26728762932,23.71,,
+    10.006434896,173628494,,dtlb_load_misses.walk_duration:u,26682018791,23.66,,
+    10.006434896,130616385,,ept.walk_cycles:u,21241659656,18.84,,
+    10.006434896,587236,,page_walker_loads.dtlb_l1:u,21245555296,18.84,,
+    10.006434896,282177,,page_walker_loads.dtlb_l2:u,21256226842,18.85,,
+    10.006434896,1010044,,page_walker_loads.dtlb_l3:u,21255923524,18.85,,
+    10.006434896,47334,,page_walker_loads.dtlb_memory:u,21254868344,18.85,,
+    10.006434896,370663,,page_walker_loads.ept_dtlb_l1:u,21263643577,18.86,,
+    10.006434896,241172,,page_walker_loads.ept_dtlb_l2:u,21269450368,18.86,,
+    10.006434896,1361496,,page_walker_loads.ept_dtlb_l3:u,21267988742,18.86,,
+    10.006434896,62127,,page_walker_loads.ept_dtlb_memory:u,21277268428,18.87,,
+    10.006434896,40594976271,,mem_uops_retired.all_loads:u,21268721103,18.86,,
+    10.006434896,998187,,mem_uops_retired.stlb_miss_loads:u,21294529327,18.89,,

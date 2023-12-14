@@ -1,0 +1,45 @@
+[INVOCATION AND ENVIRONMENT]
+/home/andrew/vmprof-tools/bin/vmprof_runner.sh invoked:
+  PREFIX=benchmark/out_thp_final/pr-kron
+  COUNTERFILE=/home/andrew/hugepage_thp.counters
+  CF2CONFIG=/home/andrew/thp_enabled_minimal.yaml
+  BENCHCPUS=0-11
+  BENCHNUMANODE=0
+  PERFCOUNTERS=instructions:u,cycles:u,dTLB-loads:u,dtlb_load_misses.miss_causes_a_walk:u,dtlb_load_misses.pde_cache_miss:u,dtlb_load_misses.stlb_hit_2m:u,dtlb_load_misses.stlb_hit_4k:u,dtlb_load_misses.walk_completed_2m_4m:u,dtlb_load_misses.walk_completed_4k:u,dtlb_load_misses.walk_duration:u,ept.walk_cycles:u,page_walker_loads.dtlb_l1:u,page_walker_loads.dtlb_l2:u,page_walker_loads.dtlb_l3:u,page_walker_loads.dtlb_memory:u,page_walker_loads.ept_dtlb_l1:u,page_walker_loads.ept_dtlb_l2:u,page_walker_loads.ept_dtlb_l3:u,page_walker_loads.ept_dtlb_memory:u,mem_uops_retired.all_loads:u,mem_uops_retired.stlb_miss_loads:u
+[CPU AFFINITY]
+[NUMA CONFIG]
+policy: bind
+preferred node: 0
+physcpubind: 0 1 2 3 4 5 6 7 8 9 10 11 
+cpubind: 0 
+nodebind: 0 
+membind: 0 
+[ASLR]
+[CF2 CONFIG]
+Applying CF2CONFIG: /home/andrew/thp_enabled_minimal.yaml
+Successfully applied config!
+[SWAP CONFIG]
+swapoff /swap.img
+[SETTLE DOWN]
+Starting pre-experiment sleep
+[EXPERIMENTS]
+Starting experiments
+Read Time:           8.93625
+Graph has 134217728 nodes and 2111632379 undirected edges for degree: 15
+Trial Time:          27.59816
+Trial Time:          27.39448
+Trial Time:          26.90085
+Trial Time:          26.85080
+Trial Time:          26.57054
+Trial Time:          26.24669
+Trial Time:          26.01060
+Trial Time:          25.89899
+Trial Time:          26.04580
+Trial Time:          25.58463
+Trial Time:          25.54281
+Trial Time:          25.50131
+Trial Time:          25.43614
+Trial Time:          25.41870
+Trial Time:          25.38494
+Trial Time:          25.19664
+Average Time:        26.09888

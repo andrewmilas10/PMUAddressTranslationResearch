@@ -1,0 +1,10 @@
+     5.000083159,15710731073,,instructions:u,4499932996,90.00,0.96,insn per cycle
+     5.000083159,16344779401,,cycles:u,4499925572,90.00,,
+     5.000083159,9008438958,,dTLB-loads,4499941744,90.00,,
+     5.000083159,355300737,,dtlb_load_misses.pde_cache_miss:u,4499924206,90.00,,
+     5.000083159,606386516,,dtlb_load_misses.stlb_hit:u,4499938716,90.00,,
+     5.000083159,458201996,,dtlb_load_misses.miss_causes_a_walk:u,4499926383,90.00,,
+     5.000083159,547177082,,page_walker_loads.dtlb_l2:u,4499945925,90.00,,
+     5.000083159,265513484,,page_walker_loads.dtlb_l1:u,4499934221,90.00,,
+     5.000083159,12558,,page_walker_loads.dtlb_l3:u,4499956771,90.00,,
+     5.000083159,0,,page_walker_loads.dtlb_memory:u,3999954630,80.00,,

@@ -1,0 +1,93 @@
+[INVOCATION AND ENVIRONMENT]
+/home/andrew/vmprof-tools/bin/vmprof_runner.sh invoked:
+  PREFIX=benchmark/out/sssp-urand
+  COUNTERFILE=/home/andrew/hugepage.counters
+  CF2CONFIG=/home/andrew/thp_disabled.yaml
+  BENCHCPUS=0-11
+  BENCHNUMANODE=0
+  PERFCOUNTERS=instructions:u,cycles:u,dtlb_load_misses.miss_causes_a_walk:u,dtlb_load_misses.pde_cache_miss:u,dtlb_load_misses.stlb_hit_2m:u,dtlb_load_misses.stlb_hit_4k:u,dtlb_load_misses.walk_completed_2m_4m:u,dtlb_load_misses.walk_completed_4k:u,dtlb_load_misses.walk_duration:u,dtlb_store_misses.miss_causes_a_walk:u,dtlb_store_misses.pde_cache_miss:u,dtlb_store_misses.stlb_hit_2m:u,dtlb_store_misses.stlb_hit_4k:u,dtlb_store_misses.walk_completed_2m_4m:u,dtlb_store_misses.walk_completed_4k:u,dtlb_store_misses.walk_duration:u,page_walker_loads.dtlb_l1:u,page_walker_loads.dtlb_l2:u,page_walker_loads.dtlb_l3:u,page_walker_loads.dtlb_memory:u,page_walker_loads.ept_dtlb_l1:u,page_walker_loads.ept_dtlb_l2:u,page_walker_loads.ept_dtlb_l3:u,page_walker_loads.ept_dtlb_memory:u,mem_uops_retired.all_loads:u,mem_uops_retired.stlb_miss_loads:u,mem_uops_retired.all_stores:u,mem_uops_retired.stlb_miss_stores:u
+[CPU AFFINITY]
+[NUMA CONFIG]
+policy: bind
+preferred node: 0
+physcpubind: 0 1 2 3 4 5 6 7 8 9 10 11 
+cpubind: 0 
+nodebind: 0 
+membind: 0 
+[ASLR]
+[CF2 CONFIG]
+Applying CF2CONFIG: /home/andrew/thp_disabled.yaml
+Successfully applied config!
+[SWAP CONFIG]
+swapoff /swap.img
+[SETTLE DOWN]
+Starting pre-experiment sleep
+[EXPERIMENTS]
+Starting experiments
+Read Time:           103.02825
+Graph has 134217728 nodes and 2147483394 undirected edges for degree: 15
+Trial Time:          42.14759
+Trial Time:          40.24738
+Trial Time:          40.44653
+Trial Time:          40.07104
+Trial Time:          39.56558
+Trial Time:          39.63243
+Trial Time:          39.80610
+Trial Time:          39.12994
+Trial Time:          39.53898
+Trial Time:          39.10471
+Trial Time:          39.44335
+Trial Time:          39.28393
+Trial Time:          39.33885
+Trial Time:          39.51194
+Trial Time:          39.58963
+Trial Time:          39.33675
+Trial Time:          39.52037
+Trial Time:          39.60817
+Trial Time:          40.46006
+Trial Time:          40.46432
+Trial Time:          39.67337
+Trial Time:          40.04753
+Trial Time:          39.80113
+Trial Time:          40.12100
+Trial Time:          39.87879
+Trial Time:          39.86701
+Trial Time:          39.90609
+Trial Time:          41.20840
+Trial Time:          39.94875
+Trial Time:          40.32192
+Trial Time:          39.76700
+Trial Time:          39.60821
+Trial Time:          40.00907
+Trial Time:          39.35161
+Trial Time:          40.22532
+Trial Time:          39.65327
+Trial Time:          39.39463
+Trial Time:          39.62650
+Trial Time:          39.32604
+Trial Time:          39.44982
+Trial Time:          39.28401
+Trial Time:          40.09188
+Trial Time:          39.34092
+Trial Time:          39.79089
+Trial Time:          39.78493
+Trial Time:          40.16901
+Trial Time:          40.11119
+Trial Time:          39.90221
+Trial Time:          40.05198
+Trial Time:          39.97328
+Trial Time:          39.94701
+Trial Time:          40.07115
+Trial Time:          39.52096
+Trial Time:          40.20437
+Trial Time:          40.45221
+Trial Time:          40.54006
+Trial Time:          39.96996
+Trial Time:          39.57709
+Trial Time:          39.89448
+Trial Time:          39.98518
+Trial Time:          39.50325
+Trial Time:          39.35727
+Trial Time:          39.60204
+Trial Time:          39.82912
+Average Time:        39.84981

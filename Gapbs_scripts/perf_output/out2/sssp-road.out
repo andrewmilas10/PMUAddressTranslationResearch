@@ -1,0 +1,95 @@
+[INVOCATION AND ENVIRONMENT]
+/home/andrewm/vmprof-tools/bin/vmprof_runner.sh invoked:
+  PREFIX=benchmark/out/sssp-road
+  COUNTERFILE=/home/andrewm/hugepage.counters
+  CF2CONFIG=/home/andrewm/thp_disabled.yaml
+  BENCHCPUS=0-11
+  BENCHNUMANODE=0
+  PERFCOUNTERS=instructions:u,cycles:u,dtlb_load_misses.miss_causes_a_walk:u,dtlb_load_misses.pde_cache_miss:u,dtlb_load_misses.stlb_hit_2m:u,dtlb_load_misses.stlb_hit_4k:u,dtlb_load_misses.walk_completed_2m_4m:u,dtlb_load_misses.walk_completed_4k:u,dtlb_load_misses.walk_duration:u,dtlb_store_misses.miss_causes_a_walk:u,dtlb_store_misses.pde_cache_miss:u,dtlb_store_misses.stlb_hit_2m:u,dtlb_store_misses.stlb_hit_4k:u,dtlb_store_misses.walk_completed_2m_4m:u,dtlb_store_misses.walk_completed_4k:u,dtlb_store_misses.walk_duration:u,page_walker_loads.dtlb_l1:u,page_walker_loads.dtlb_l2:u,page_walker_loads.dtlb_l3:u,page_walker_loads.dtlb_memory:u,mem_uops_retired.all_loads:u,mem_uops_retired.stlb_miss_loads:u,mem_uops_retired.all_stores:u,mem_uops_retired.stlb_miss_stores:u
+[TURBOBOOST]
+[SCALING GOVERNER]
+[CPU AFFINITY]
+[NUMA CONFIG]
+policy: bind
+preferred node: 0
+physcpubind: 0 1 2 3 4 5 6 7 8 9 10 11 
+cpubind: 0 
+nodebind: 0 
+membind: 0 
+[ASLR]
+[CF2 CONFIG]
+Applying CF2CONFIG: /home/andrewm/thp_disabled.yaml
+Successfully applied config!
+[SWAP CONFIG]
+swapoff UUID=6cf44486-5b39-4ecb-9fbf-f8bd2d0b1edc
+[SETTLE DOWN]
+Starting pre-experiment sleep
+[EXPERIMENTS]
+Starting experiments
+Read Time:           0.97705
+Graph has 23947347 nodes and 57708624 directed edges for degree: 2
+Trial Time:          0.29248
+Trial Time:          0.26042
+Trial Time:          0.26552
+Trial Time:          0.26529
+Trial Time:          0.26517
+Trial Time:          0.26674
+Trial Time:          0.26415
+Trial Time:          0.26907
+Trial Time:          0.26655
+Trial Time:          0.27882
+Trial Time:          0.26756
+Trial Time:          0.26658
+Trial Time:          0.26501
+Trial Time:          0.27159
+Trial Time:          0.25807
+Trial Time:          0.26380
+Trial Time:          0.26677
+Trial Time:          0.26750
+Trial Time:          0.26820
+Trial Time:          0.26624
+Trial Time:          0.26480
+Trial Time:          0.27053
+Trial Time:          0.27139
+Trial Time:          0.26584
+Trial Time:          0.26470
+Trial Time:          0.27171
+Trial Time:          0.27256
+Trial Time:          0.26867
+Trial Time:          0.26719
+Trial Time:          0.26886
+Trial Time:          0.26786
+Trial Time:          0.26945
+Trial Time:          0.26375
+Trial Time:          0.26380
+Trial Time:          0.26756
+Trial Time:          0.28051
+Trial Time:          0.26456
+Trial Time:          0.30410
+Trial Time:          0.28353
+Trial Time:          0.27494
+Trial Time:          0.29018
+Trial Time:          0.27932
+Trial Time:          0.26561
+Trial Time:          0.25991
+Trial Time:          0.26750
+Trial Time:          0.27339
+Trial Time:          0.26454
+Trial Time:          0.27094
+Trial Time:          0.25965
+Trial Time:          0.25656
+Trial Time:          0.26545
+Trial Time:          0.26677
+Trial Time:          0.26176
+Trial Time:          0.25690
+Trial Time:          0.27135
+Trial Time:          0.26917
+Trial Time:          0.27096
+Trial Time:          0.27234
+Trial Time:          0.26629
+Trial Time:          0.27263
+Trial Time:          0.26348
+Trial Time:          0.27007
+Trial Time:          0.26363
+Trial Time:          0.26301
+Average Time:        0.26880

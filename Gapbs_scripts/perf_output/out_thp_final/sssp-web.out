@@ -1,0 +1,100 @@
+[INVOCATION AND ENVIRONMENT]
+/home/andrewm/vmprof-tools/bin/vmprof_runner.sh invoked:
+  PREFIX=benchmark/out_thp_final/sssp-web
+  COUNTERFILE=/home/andrewm/hugepage_thp.counters
+  CF2CONFIG=/home/andrewm/thp_enabled_minimal.yaml
+  BENCHCPUS=0-11
+  BENCHNUMANODE=0
+  PERFCOUNTERS=instructions:u,cycles:u,dTLB-loads:u,dtlb_load_misses.miss_causes_a_walk:u,dtlb_load_misses.pde_cache_miss:u,dtlb_load_misses.stlb_hit_2m:u,dtlb_store_misses.stlb_hit_4k:u,dtlb_load_misses.walk_completed_2m_4m:u,dtlb_load_misses.walk_completed_4k:u,dtlb_load_misses.walk_duration:u,page_walker_loads.dtlb_l1:u,page_walker_loads.dtlb_l2:u,page_walker_loads.dtlb_l3:u,page_walker_loads.dtlb_memory:u,mem_uops_retired.all_loads:u,mem_uops_retired.stlb_miss_loads:u
+[TURBOBOOST]
+[SCALING GOVERNER]
+[CPU AFFINITY]
+[NUMA CONFIG]
+policy: bind
+preferred node: 0
+physcpubind: 0 1 2 3 4 5 6 7 8 9 10 11 
+cpubind: 0 
+nodebind: 0 
+membind: 0 
+[ASLR]
+[CF2 CONFIG]
+git rev-parse --show-toplevel ran with error. Cannot find project root.
+git subprocess stderr: fatal: detected dubious ownership in repository at '/home/andrewm/vmprof-tools/cf2'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/andrewm/vmprof-tools/cf2
+Applying CF2CONFIG: /home/andrewm/thp_enabled_minimal.yaml
+Successfully applied config!
+[SWAP CONFIG]
+swapoff UUID=6cf44486-5b39-4ecb-9fbf-f8bd2d0b1edc
+[SETTLE DOWN]
+Starting pre-experiment sleep
+[EXPERIMENTS]
+Starting experiments
+Read Time:           64.73478
+Graph has 50636151 nodes and 1930292948 directed edges for degree: 38
+Trial Time:          1.80677
+Trial Time:          1.78932
+Trial Time:          1.78784
+Trial Time:          1.79190
+Trial Time:          1.87234
+Trial Time:          0.01012
+Trial Time:          1.80879
+Trial Time:          1.78952
+Trial Time:          1.79225
+Trial Time:          1.79257
+Trial Time:          1.78064
+Trial Time:          1.82630
+Trial Time:          1.84601
+Trial Time:          1.79279
+Trial Time:          0.01703
+Trial Time:          1.78285
+Trial Time:          1.78513
+Trial Time:          1.78596
+Trial Time:          0.01510
+Trial Time:          1.85348
+Trial Time:          1.83217
+Trial Time:          1.80262
+Trial Time:          1.78436
+Trial Time:          1.78091
+Trial Time:          1.78314
+Trial Time:          1.84486
+Trial Time:          1.81870
+Trial Time:          1.81620
+Trial Time:          1.78707
+Trial Time:          1.78939
+Trial Time:          1.78068
+Trial Time:          1.78442
+Trial Time:          1.82945
+Trial Time:          1.81183
+Trial Time:          1.79945
+Trial Time:          1.78970
+Trial Time:          1.78802
+Trial Time:          1.78975
+Trial Time:          1.83914
+Trial Time:          1.81153
+Trial Time:          1.82488
+Trial Time:          0.00987
+Trial Time:          1.79968
+Trial Time:          1.79093
+Trial Time:          1.78995
+Trial Time:          1.85440
+Trial Time:          1.80552
+Trial Time:          1.81344
+Trial Time:          1.80699
+Trial Time:          1.78946
+Trial Time:          1.78621
+Trial Time:          1.84681
+Trial Time:          1.80662
+Trial Time:          0.01879
+Trial Time:          1.80859
+Trial Time:          1.80704
+Trial Time:          1.79415
+Trial Time:          1.79000
+Trial Time:          1.78561
+Trial Time:          1.83368
+Trial Time:          1.78426
+Trial Time:          1.82068
+Trial Time:          1.77771
+Trial Time:          1.77702
+Average Time:        1.66426

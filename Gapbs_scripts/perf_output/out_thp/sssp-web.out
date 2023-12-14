@@ -1,0 +1,95 @@
+[INVOCATION AND ENVIRONMENT]
+/home/andrewm/vmprof-tools/bin/vmprof_runner.sh invoked:
+  PREFIX=benchmark/out_test3/sssp-web
+  COUNTERFILE=/home/andrewm/hugepage.counters
+  CF2CONFIG=/home/andrewm/thp_enabled_minimal.yaml
+  BENCHCPUS=0-11
+  BENCHNUMANODE=0
+  PERFCOUNTERS=instructions:u,cycles:u,dTLB-loads:u,dTLB-stores:u,dtlb_load_misses.miss_causes_a_walk:u,dtlb_load_misses.pde_cache_miss:u,dtlb_load_misses.stlb_hit_4k:u,dtlb_load_misses.walk_completed_4k:u,dtlb_load_misses.walk_duration:u,dtlb_store_misses.miss_causes_a_walk:u,dtlb_store_misses.pde_cache_miss:u,dtlb_store_misses.stlb_hit_4k:u,dtlb_store_misses.walk_completed_4k:u,dtlb_store_misses.walk_duration:u,page_walker_loads.dtlb_l1:u,page_walker_loads.dtlb_l2:u,page_walker_loads.dtlb_l3:u,page_walker_loads.dtlb_memory:u,other_assists.any_wb_assist:u,mem_uops_retired.all_loads:u,mem_uops_retired.stlb_miss_loads:u,mem_uops_retired.all_stores:u,mem_uops_retired.stlb_miss_stores:u
+[TURBOBOOST]
+[SCALING GOVERNER]
+[CPU AFFINITY]
+[NUMA CONFIG]
+policy: bind
+preferred node: 0
+physcpubind: 0 1 2 3 4 5 6 7 8 9 10 11 
+cpubind: 0 
+nodebind: 0 
+membind: 0 
+[ASLR]
+[CF2 CONFIG]
+Applying CF2CONFIG: /home/andrewm/thp_enabled_minimal.yaml
+Successfully applied config!
+[SWAP CONFIG]
+swapoff UUID=6cf44486-5b39-4ecb-9fbf-f8bd2d0b1edc
+[SETTLE DOWN]
+Starting pre-experiment sleep
+[EXPERIMENTS]
+Starting experiments
+Read Time:           30.30010
+Graph has 50636151 nodes and 1930292948 directed edges for degree: 38
+Trial Time:          1.90506
+Trial Time:          1.79862
+Trial Time:          1.79309
+Trial Time:          1.79703
+Trial Time:          1.79224
+Trial Time:          0.01062
+Trial Time:          1.79475
+Trial Time:          1.86094
+Trial Time:          1.82529
+Trial Time:          1.79538
+Trial Time:          1.79701
+Trial Time:          1.78745
+Trial Time:          1.79612
+Trial Time:          1.85427
+Trial Time:          0.01737
+Trial Time:          1.84617
+Trial Time:          1.79007
+Trial Time:          1.78965
+Trial Time:          0.01592
+Trial Time:          1.79296
+Trial Time:          1.78794
+Trial Time:          1.81334
+Trial Time:          1.85304
+Trial Time:          1.78133
+Trial Time:          1.79157
+Trial Time:          1.78599
+Trial Time:          1.78115
+Trial Time:          1.78454
+Trial Time:          1.84066
+Trial Time:          1.80207
+Trial Time:          1.78267
+Trial Time:          1.79192
+Trial Time:          1.79306
+Trial Time:          1.78998
+Trial Time:          1.82333
+Trial Time:          1.82842
+Trial Time:          1.79384
+Trial Time:          1.79402
+Trial Time:          1.78573
+Trial Time:          1.79163
+Trial Time:          1.81924
+Trial Time:          0.01096
+Trial Time:          1.82240
+Trial Time:          1.80618
+Trial Time:          1.79392
+Trial Time:          1.79815
+Trial Time:          1.78624
+Trial Time:          1.83262
+Trial Time:          1.81601
+Trial Time:          1.82637
+Trial Time:          1.78614
+Trial Time:          1.79848
+Trial Time:          1.79380
+Trial Time:          0.01907
+Trial Time:          1.82472
+Trial Time:          1.80765
+Trial Time:          1.81923
+Trial Time:          1.79802
+Trial Time:          1.79710
+Trial Time:          1.78467
+Trial Time:          1.79391
+Trial Time:          1.82536
+Trial Time:          1.81205
+Trial Time:          1.80965
+Average Time:        1.66622
