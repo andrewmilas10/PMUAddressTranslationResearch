@@ -1,0 +1,16 @@
+instructions
+cycles
+dTLB-loads                                         
+dtlb_load_misses.miss_causes_a_walk
+dtlb_load_misses.pde_cache_miss   
+dtlb_load_misses.stlb_hit_2m
+dtlb_store_misses.stlb_hit_4k
+dtlb_load_misses.walk_completed_2m_4m
+dtlb_load_misses.walk_completed_4k
+dtlb_load_misses.walk_duration
+page_walker_loads.dtlb_l1
+page_walker_loads.dtlb_l2
+page_walker_loads.dtlb_l3
+page_walker_loads.dtlb_memory
+mem_uops_retired.all_loads
+mem_uops_retired.stlb_miss_loads

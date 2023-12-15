@@ -1,0 +1,31 @@
+ksm:
+  max_page_sharing: 256
+  merge_across_nodes: 1
+  pages_to_scan: 100
+  run: 0
+  sleep_millisecs: 20
+  stable_node_chains_prune_millisecs: 2000
+  use_zero_pages: 0
+kvn:
+  suffix: -generic
+  w: 5
+  x: 4
+  y: 0
+  z: 148
+# numa:
+  # demotion_enabled: false
+swap:
+  vma_ra_enabled: false
+transparent_hugepage:
+  defrag: never
+  enabled: always
+  hpage_pmd_size: 2097152
+  khugepaged:
+    alloc_sleep_millisecs: 60000
+    max_ptes_none: 511
+    # max_ptes_shared: 256
+    max_ptes_swap: 64
+    pages_to_scan: 4096
+    scan_sleep_millisecs: 10000
+  shmem_enabled: never
+  use_zero_page: 1
